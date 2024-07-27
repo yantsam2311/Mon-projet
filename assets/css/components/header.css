@@ -9,8 +9,7 @@
 
 .menu-container img {
     width: 100px;
-    display: block;
-   
+    display: block;   
 }
 
 .main-menu {
@@ -38,8 +37,8 @@ header {
     top: 0;
     width: 100%;
     z-index: 10;
-
 }
+
 .photo {
     position: relative;
     width: 100%; 
@@ -99,7 +98,12 @@ header {
     position: relative;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 0 20px; rgba(17, 31, 68,.4);   
+    box-shadow: 0 0 20px;
+     rgba(17, 31, 68,.4):;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .bigbanner_button-doctolib img {
@@ -125,6 +129,10 @@ header {
     border: 2px solid #fff;
     cursor: pointer;
     gap: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .bigbanner_button-phone img {
